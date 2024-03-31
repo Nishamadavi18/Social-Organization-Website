@@ -1,0 +1,144 @@
+body{
+	margin: none;
+	padding: 0;
+	background-size: 50%;
+	font-size:26px;
+	color: white;
+	text-shadow: #32508e;
+	font-family:sans-serif;
+	font-weight: 300px;
+	background-color: burlywood;
+	text-align: center;
+}
+
+#login-box
+{
+	position:relative;
+	background-image :url(../) ;
+	background-size: cover;
+    border-style: groove;
+	margin:9% auto;
+	height:640px;
+	width:650px;
+	box-shadow:0 2px 4px rgb(27, 27, 110);
+	text-align: center;
+	padding:80px 40px;
+	box-sizing:border-box;
+	overflow-y: hidden;
+	border-radius: 5%;		
+}
+
+.left-box
+{
+	position:absolute;
+	top:0;
+	left:0;
+	box-sizing:border-box;
+	padding:55px;
+	width: 600px;
+	height:400px;
+	
+}
+h1{
+	margin:0 0 20px 0;
+	font-weight:300px;
+	font-size:45px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: left;
+}
+
+input[type="text"],
+input[type="password"]
+{
+	display:block;
+	box-sizing:border-box;
+	margin-bottom:28px;
+	padding:4px;
+	width:250px;
+	height:55px;
+	border: none ;
+	outline:none ;
+	border-bottom:1px solid #aaa;
+	font-family:sans-serif;
+	font-weight:400;
+	font-size:20px;
+	transition: 0.2 ease;
+
+}
+input[type="submit"],
+input[type="button"]
+
+{
+	margin-bottom:28px;
+	width:170px;
+	height:55px;
+	background:#f44336;
+	border:none;
+	border-radius:5px;
+	color: black;
+	font-family: sans-serif;
+	font-weight:500px;
+	text-transform: uppercase;
+	transition:0.2s ease;
+	cursor:pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background:#ff5722;
+	transition:0.2s ease;
+}
+.right-box{
+	position:absolute;
+	top:0;
+	right:0;
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+	background-image: url(../donation\ page.jpg);
+	background-size:cover;
+	background-position: center;
+}
+.or{
+	position:absolute;
+	top:180px;
+	left:280px;
+	width: 40px;
+	height: 40px;
+	background:#efefef;
+	border-radius:50%;
+	box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+	line-height: 40px;
+	text-align:center;
+}
+.right-box .signinwith
+{
+	display:block;
+	margin-bottom: 40px;
+	font-size: 28px;
+	color:#fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+button.social{
+	margin-bottom: 20px;
+	width: 220px;
+	height:36px;
+	border:none;
+	border-radius:2px;
+	color:#fff;
+	font-family:sans-serif;
+	font-weight:500;
+	transition:0.2s ease;
+	cursor:pointer;
+}
+.facebook{
+	background: #32508e;
+}
+.twitter{
+	background: #32508e;
+}
+.google{
+	background: #32508e;
+}

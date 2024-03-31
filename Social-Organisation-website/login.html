@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <style type="text/css">
+      @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(logo\ loginback.jpg) no-repeat;
+  background-size: cover;
+}
+.login-box{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:550px;
+  height:600px;
+  padding:80px 40px;
+  box-sizing:border-box;
+  background: white;
+  overflow-y: hidden;
+  border-radius: 10%;
+  border:2px solid black;
+
+
+}
+
+.login-box h1 {
+  float: left;
+  font-size: 50px;
+  border-bottom: 8px solid green;
+  margin-bottom: 70px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0; 
+  border-bottom: 3px solid green;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 22px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: rgb(red, green, blue);
+  border: 6px solid green;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+    </style>
+<div class="login-box">
+  <h1>Login</h1><br>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username">
+  </div><br>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password">
+  </div><br><br>
+
+  <input type="button" class="btn" value="Sign in">
+</div><br><br>
+  </body>
+</html>

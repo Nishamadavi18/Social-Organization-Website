@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  padding:0;
+  background-image:url("../backgraound\ 4.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+.signup{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:550px;
+  height:800px;
+  padding:80px 40px;
+  box-sizing:border-box;
+  background: rgba(0,0,0,0.5);
+  overflow-y: hidden;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+option{  
+   font-size: 140%;
+}
+
+h1{
+
+  margin:0;
+  padding: 0 0 20px;
+  color:#1E90FF;
+  text-align: center;
+  font-size: 250%;
+}
+h2{
+  font-size: 150%;
+  color: #fff;
+}
+h3{
+  font-size: 150%;
+  color: #fff;
+}
+.signup input{
+  width:100%;
+  margin-bottom: 20px;
+
+}
+.signup input[type="text"], .signup input[type="password"], .signup input[type="textarea"]
+{
+  border :none;
+  border-bottom: 1px solid #fff;
+  background:transparent;
+  outline:none;
+  height:40px;
+  color:#fff;
+  font-size:22px;
+}
+.signup input[type="submit"]
+{
+  border:none;
+  outline:none;
+  height:40px;
+  color:#fff;
+  font-size:24px;
+  background:rgb(255,38,126);
+  cursor:pointer;
+  border-radius:20px;
+}
